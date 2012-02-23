@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C34A5B2B14F5BEF800285DE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A5B2A14F5BEF800285DE1 /* UIKit.framework */; };
+		C34A5B2D14F5BEF800285DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A5B2C14F5BEF800285DE1 /* Foundation.framework */; };
+		C34A5B2F14F5BEF800285DE1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A5B2E14F5BEF800285DE1 /* CoreGraphics.framework */; };
+		C34A5B3514F5BEF800285DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34A5B3314F5BEF800285DE1 /* InfoPlist.strings */; };
+		C34A5B3714F5BEF800285DE1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A5B3614F5BEF800285DE1 /* main.m */; };
+		C34A5B3B14F5BEF900285DE1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A5B3A14F5BEF900285DE1 /* AppDelegate.m */; };
+		C34A5B3E14F5BEF900285DE1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A5B3D14F5BEF900285DE1 /* RootViewController.m */; };
+		C34A5B4114F5BEF900285DE1 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A5B4014F5BEF900285DE1 /* DataViewController.m */; };
+		C34A5B4414F5BEF900285DE1 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A5B4314F5BEF900285DE1 /* ModelController.m */; };
+		C34A5B4714F5BEF900285DE1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A5B4514F5BEF900285DE1 /* MainStoryboard_iPhone.storyboard */; };
+		C34A5B4A14F5BEF900285DE1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C34A5B4814F5BEF900285DE1 /* MainStoryboard_iPad.storyboard */; };
+		C34A5B5214F5BEF900285DE1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A5B5114F5BEF900285DE1 /* SenTestingKit.framework */; };
+		C34A5B5314F5BEF900285DE1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A5B2A14F5BEF800285DE1 /* UIKit.framework */; };
+		C34A5B5414F5BEF900285DE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C34A5B2C14F5BEF800285DE1 /* Foundation.framework */; };
+		C34A5B5C14F5BEF900285DE1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C34A5B5A14F5BEF900285DE1 /* InfoPlist.strings */; };
+		C34A5B5F14F5BEF900285DE1 /* eDexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C34A5B5E14F5BEF900285DE1 /* eDexTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C34A5B5514F5BEF900285DE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C34A5B1D14F5BEF800285DE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34A5B2514F5BEF800285DE1;
+			remoteInfo = eDex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C34A5B2614F5BEF800285DE1 /* eDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34A5B2A14F5BEF800285DE1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C34A5B2C14F5BEF800285DE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C34A5B2E14F5BEF800285DE1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C34A5B3214F5BEF800285DE1 /* eDex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eDex-Info.plist"; sourceTree = "<group>"; };
+		C34A5B3414F5BEF800285DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C34A5B3614F5BEF800285DE1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C34A5B3814F5BEF900285DE1 /* eDex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eDex-Prefix.pch"; sourceTree = "<group>"; };
+		C34A5B3914F5BEF900285DE1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C34A5B3A14F5BEF900285DE1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C34A5B3C14F5BEF900285DE1 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C34A5B3D14F5BEF900285DE1 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		C34A5B3F14F5BEF900285DE1 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		C34A5B4014F5BEF900285DE1 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		C34A5B4214F5BEF900285DE1 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		C34A5B4314F5BEF900285DE1 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		C34A5B4614F5BEF900285DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C34A5B4914F5BEF900285DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C34A5B5014F5BEF900285DE1 /* eDexTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eDexTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C34A5B5114F5BEF900285DE1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		C34A5B5914F5BEF900285DE1 /* eDexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eDexTests-Info.plist"; sourceTree = "<group>"; };
+		C34A5B5B14F5BEF900285DE1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C34A5B5D14F5BEF900285DE1 /* eDexTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = eDexTests.h; sourceTree = "<group>"; };
+		C34A5B5E14F5BEF900285DE1 /* eDexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eDexTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C34A5B2314F5BEF800285DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A5B2B14F5BEF800285DE1 /* UIKit.framework in Frameworks */,
+				C34A5B2D14F5BEF800285DE1 /* Foundation.framework in Frameworks */,
+				C34A5B2F14F5BEF800285DE1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A5B4C14F5BEF900285DE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A5B5214F5BEF900285DE1 /* SenTestingKit.framework in Frameworks */,
+				C34A5B5314F5BEF900285DE1 /* UIKit.framework in Frameworks */,
+				C34A5B5414F5BEF900285DE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C34A5B1B14F5BEF800285DE1 = {
+			isa = PBXGroup;
+			children = (
+				C34A5B3014F5BEF800285DE1 /* eDex */,
+				C34A5B5714F5BEF900285DE1 /* eDexTests */,
+				C34A5B2914F5BEF800285DE1 /* Frameworks */,
+				C34A5B2714F5BEF800285DE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C34A5B2714F5BEF800285DE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C34A5B2614F5BEF800285DE1 /* eDex.app */,
+				C34A5B5014F5BEF900285DE1 /* eDexTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C34A5B2914F5BEF800285DE1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C34A5B2A14F5BEF800285DE1 /* UIKit.framework */,
+				C34A5B2C14F5BEF800285DE1 /* Foundation.framework */,
+				C34A5B2E14F5BEF800285DE1 /* CoreGraphics.framework */,
+				C34A5B5114F5BEF900285DE1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C34A5B3014F5BEF800285DE1 /* eDex */ = {
+			isa = PBXGroup;
+			children = (
+				C34A5B3914F5BEF900285DE1 /* AppDelegate.h */,
+				C34A5B3A14F5BEF900285DE1 /* AppDelegate.m */,
+				C34A5B3C14F5BEF900285DE1 /* RootViewController.h */,
+				C34A5B3D14F5BEF900285DE1 /* RootViewController.m */,
+				C34A5B3F14F5BEF900285DE1 /* DataViewController.h */,
+				C34A5B4014F5BEF900285DE1 /* DataViewController.m */,
+				C34A5B4214F5BEF900285DE1 /* ModelController.h */,
+				C34A5B4314F5BEF900285DE1 /* ModelController.m */,
+				C34A5B4514F5BEF900285DE1 /* MainStoryboard_iPhone.storyboard */,
+				C34A5B4814F5BEF900285DE1 /* MainStoryboard_iPad.storyboard */,
+				C34A5B3114F5BEF800285DE1 /* Supporting Files */,
+			);
+			path = eDex;
+			sourceTree = "<group>";
+		};
+		C34A5B3114F5BEF800285DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34A5B3214F5BEF800285DE1 /* eDex-Info.plist */,
+				C34A5B3314F5BEF800285DE1 /* InfoPlist.strings */,
+				C34A5B3614F5BEF800285DE1 /* main.m */,
+				C34A5B3814F5BEF900285DE1 /* eDex-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C34A5B5714F5BEF900285DE1 /* eDexTests */ = {
+			isa = PBXGroup;
+			children = (
+				C34A5B5D14F5BEF900285DE1 /* eDexTests.h */,
+				C34A5B5E14F5BEF900285DE1 /* eDexTests.m */,
+				C34A5B5814F5BEF900285DE1 /* Supporting Files */,
+			);
+			path = eDexTests;
+			sourceTree = "<group>";
+		};
+		C34A5B5814F5BEF900285DE1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C34A5B5914F5BEF900285DE1 /* eDexTests-Info.plist */,
+				C34A5B5A14F5BEF900285DE1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C34A5B2514F5BEF800285DE1 /* eDex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A5B6214F5BEF900285DE1 /* Build configuration list for PBXNativeTarget "eDex" */;
+			buildPhases = (
+				C34A5B2214F5BEF800285DE1 /* Sources */,
+				C34A5B2314F5BEF800285DE1 /* Frameworks */,
+				C34A5B2414F5BEF800285DE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eDex;
+			productName = eDex;
+			productReference = C34A5B2614F5BEF800285DE1 /* eDex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C34A5B4F14F5BEF900285DE1 /* eDexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C34A5B6514F5BEF900285DE1 /* Build configuration list for PBXNativeTarget "eDexTests" */;
+			buildPhases = (
+				C34A5B4B14F5BEF900285DE1 /* Sources */,
+				C34A5B4C14F5BEF900285DE1 /* Frameworks */,
+				C34A5B4D14F5BEF900285DE1 /* Resources */,
+				C34A5B4E14F5BEF900285DE1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C34A5B5614F5BEF900285DE1 /* PBXTargetDependency */,
+			);
+			name = eDexTests;
+			productName = eDexTests;
+			productReference = C34A5B5014F5BEF900285DE1 /* eDexTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C34A5B1D14F5BEF800285DE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Indiana University";
+			};
+			buildConfigurationList = C34A5B2014F5BEF800285DE1 /* Build configuration list for PBXProject "eDex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C34A5B1B14F5BEF800285DE1;
+			productRefGroup = C34A5B2714F5BEF800285DE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C34A5B2514F5BEF800285DE1 /* eDex */,
+				C34A5B4F14F5BEF900285DE1 /* eDexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C34A5B2414F5BEF800285DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A5B3514F5BEF800285DE1 /* InfoPlist.strings in Resources */,
+				C34A5B4714F5BEF900285DE1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				C34A5B4A14F5BEF900285DE1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A5B4D14F5BEF900285DE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A5B5C14F5BEF900285DE1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C34A5B4E14F5BEF900285DE1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C34A5B2214F5BEF800285DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A5B3714F5BEF800285DE1 /* main.m in Sources */,
+				C34A5B3B14F5BEF900285DE1 /* AppDelegate.m in Sources */,
+				C34A5B3E14F5BEF900285DE1 /* RootViewController.m in Sources */,
+				C34A5B4114F5BEF900285DE1 /* DataViewController.m in Sources */,
+				C34A5B4414F5BEF900285DE1 /* ModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C34A5B4B14F5BEF900285DE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34A5B5F14F5BEF900285DE1 /* eDexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C34A5B5614F5BEF900285DE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C34A5B2514F5BEF800285DE1 /* eDex */;
+			targetProxy = C34A5B5514F5BEF900285DE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C34A5B3314F5BEF800285DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34A5B3414F5BEF800285DE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C34A5B4514F5BEF900285DE1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34A5B4614F5BEF900285DE1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C34A5B4814F5BEF900285DE1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34A5B4914F5BEF900285DE1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C34A5B5A14F5BEF900285DE1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C34A5B5B14F5BEF900285DE1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C34A5B6014F5BEF900285DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C34A5B6114F5BEF900285DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C34A5B6314F5BEF900285DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eDex/eDex-Prefix.pch";
+				INFOPLIST_FILE = "eDex/eDex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C34A5B6414F5BEF900285DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eDex/eDex-Prefix.pch";
+				INFOPLIST_FILE = "eDex/eDex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C34A5B6614F5BEF900285DE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eDex.app/eDex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eDex/eDex-Prefix.pch";
+				INFOPLIST_FILE = "eDexTests/eDexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C34A5B6714F5BEF900285DE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/eDex.app/eDex";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eDex/eDex-Prefix.pch";
+				INFOPLIST_FILE = "eDexTests/eDexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C34A5B2014F5BEF800285DE1 /* Build configuration list for PBXProject "eDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A5B6014F5BEF900285DE1 /* Debug */,
+				C34A5B6114F5BEF900285DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C34A5B6214F5BEF900285DE1 /* Build configuration list for PBXNativeTarget "eDex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A5B6314F5BEF900285DE1 /* Debug */,
+				C34A5B6414F5BEF900285DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C34A5B6514F5BEF900285DE1 /* Build configuration list for PBXNativeTarget "eDexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C34A5B6614F5BEF900285DE1 /* Debug */,
+				C34A5B6714F5BEF900285DE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C34A5B1D14F5BEF800285DE1 /* Project object */;
+}
